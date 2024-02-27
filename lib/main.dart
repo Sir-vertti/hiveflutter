@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:hive/hive.dart';
+// import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 part 'main.g.dart';
@@ -33,6 +33,7 @@ class PopularMoviesPage extends StatefulWidget {
   const PopularMoviesPage({Key? key}) : super(key: key);
 
   @override
+  // ignore: library_private_types_in_public_api
   _PopularMoviesPageState createState() => _PopularMoviesPageState();
 }
 
